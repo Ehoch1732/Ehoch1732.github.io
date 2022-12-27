@@ -396,6 +396,7 @@ header {
 .my-work-header {
     display: block;
     text-align: center;
+    margin: 0 auto;
 }
 
 .portfolio {
@@ -469,4 +470,54 @@ header {
 
 .social-list__link {
     padding: 0.5em;
+}
+
+/* Project Pages Styling */
+
+/* Project Introduction */
+
+.proj__intro {
+    background-color: var(--clr-dark);
+    background-image: url(../img/services_background.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.section__title--proj_intro {
+    text-align: center;
+}
+
+/* Project Description */
+.proj_description {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.section__title--proj_description {
+    text-align: center;
+}
+
+.proj_description__body {
+    text-align: center;
+}
+
+/* Project Planning */
+
+.section__title--proj_planning {
+    text-align: center;
+}
+
+/* Project Gallery */
+
+.proj_gallery {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.section__title--proj_gallery {
+    text-align: center;
 }
