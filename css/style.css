@@ -64,6 +64,13 @@ img {
     max-width: 100%;
 }
 
+figcaption {
+    font-weight: var(--fw-reg);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-h3);
+    color: var(--clr-accent);
+}
+
 strong {
     font-weight: var(--fw-bold);
 }
@@ -476,48 +483,74 @@ header {
 
 /* Project Introduction */
 
-.proj__intro {
+.intro-bike {
     background-color: var(--clr-dark);
-    background-image: url(../img/services_background.png);
+    background-image: url(../img/bike_shop/bike_display.png);
     background-size: cover;
     background-blend-mode: multiply;
+    height: 900px;
+    text-align: center;
     color: var(--clr-light);
-    text-align: center;
 }
 
-.section__title--proj_intro {
-    text-align: center;
+.section__title--intro-bike,
+.section__subtitle--intro-bike {
+    display: relative;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-/* Project Description */
-.proj_description {
+/* Materials */
+
+.proj-materials {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
 }
 
-.section__title--proj_description {
+.section__title--proj-materials {
+    margin-bottom: 1em;
+}
+
+.material__name {
+    margin: 0.75em;
+}
+
+.material__img {
+    border-radius: 50%;
+    position: relative;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    box-shadow: var(--boxsh);
+}
+
+.material__item {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 950px) {
+    .material-list {
+        display: flex;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* Planning */
+
+.section__title--proj-planning {
     text-align: center;
 }
 
-.proj_description__body {
-    text-align: center;
-}
+/* Gallery */
 
-/* Project Planning */
-
-.section__title--proj_planning {
-    text-align: center;
-}
-
-/* Project Gallery */
-
-.proj_gallery {
+.proj-gallery {
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    text-align: center;
-}
-
-.section__title--proj_gallery {
     text-align: center;
 }
