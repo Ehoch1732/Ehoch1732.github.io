@@ -497,8 +497,28 @@ header {
 /* Project Introduction */
 
 .intro-bike {
-    background-color: var(--clr-dark);
     background-image: url(../img/bike_shop/bike_display.png);
+}
+
+.intro-law {
+    background-image: url(../img/law_office/law_lobby.png);
+}
+
+.intro-pulse {
+    background-image: url(../img/pulse/bed_view.png);
+}
+
+.intro-studio-soul {
+    background-image: url(../img/studio_soul/studio_soul_workstation.png);
+}
+
+.intro-form {
+    background-image: url(../img/form/restaurant_view.png);
+}
+
+.intro-bike, .intro-law, .intro-pulse,
+.intro-studio-soul, .intro-form {
+    background-color: var(--clr-dark);
     background-size: cover;
     background-blend-mode: multiply;
     height: 900px;
@@ -506,8 +526,8 @@ header {
     color: var(--clr-light);
 }
 
-.section__title--intro-bike,
-.section__subtitle--intro-bike {
+.section__title--proj-name,
+.section__subtitle--proj-description {
     display: relative;
     max-width: 800px;
     margin: 0 auto;
