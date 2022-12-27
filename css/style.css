@@ -186,12 +186,25 @@ header {
 .nav__link {
     color: inherit;
     font-weight: var(--fw-bold);
-    font-size: var(--fs-h3);
+    font-size: var(--fs-h2);
     text-decoration: none;
 }
 
-.nav__link:hover {
-    color: var(--clr-accent);
+.nav__link:hover,
+.subnav__link:hover {
+    color: var(--clr-pink);
+}
+
+.subnav__list {
+    list-style: none;
+    margin-left: 12px;
+}
+
+.subnav__link {
+    color: inherit;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h3);
+    text-decoration: none;
 }
 
 .nav-toggle {
@@ -214,7 +227,7 @@ header {
 }
 
 .nav_open .hamburger {
-    transform: rotate(.625turn);
+    transform: rotate(90deg);
 }
 
 .nav-open .hamburger::before {
