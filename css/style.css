@@ -55,6 +55,10 @@ body {
     line-height: 1.6;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 section {
     padding: 5em 2em;
 }
@@ -350,7 +354,7 @@ header {
     margin: 0 auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
     .services, .benefits {
         display: flex;
         max-width: 1000px;
@@ -425,6 +429,8 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-gap: .5em;
+    grid-column-gap: .5em;
     max-width: 900px;
     margin: 0 auto;
 }
