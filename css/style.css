@@ -19,6 +19,7 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #f0f0f0;
+    --clr-pink: pink;
 
     /* fs: font size */
     --fs-h1: 3rem;
@@ -46,7 +47,7 @@ html {
 }
 
 body {
-    background: var(--clr-lightt);
+    background: var(--clr-light);
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -225,7 +226,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-accent);
+    background: var(--clr-pink);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -291,8 +292,8 @@ header {
 /* My services section */
 
 .my-services {
-    background-color: var(--clr-accent);
-    background-image: url(../img/coffee_desk_laptop.jpg);
+    background-color: var(--clr-dark);
+    background-image: url(../img/services_background.png);
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
@@ -300,8 +301,11 @@ header {
 }
 
 .section__title--services {
+    display: block;
     color: var(--clr-accent);
     position: relative;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .section__title--services::after {
@@ -386,6 +390,11 @@ header {
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
+    text-align: center;
+}
+
+.my-work-header {
+    display: block;
     text-align: center;
 }
 
