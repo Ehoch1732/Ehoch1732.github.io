@@ -521,7 +521,6 @@ header {
     background-color: var(--clr-dark);
     background-size: cover;
     background-blend-mode: multiply;
-    height: 900px;
     text-align: center;
     color: var(--clr-light);
 }
@@ -531,6 +530,10 @@ header {
     display: relative;
     max-width: 800px;
     margin: 0 auto;
+}
+
+.introduction {
+    margin: 100px auto;
 }
 
 /* Materials */
