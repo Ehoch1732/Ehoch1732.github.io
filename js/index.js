@@ -10,9 +10,3 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 })
-
-subNavLinks.forEach(link => {
-    link.addEventListener('click', () => {
-        document.body.classList.remove('nav-open');
-    })
-})
